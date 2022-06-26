@@ -7,7 +7,7 @@
                 <div class="inner-container">
                     <div class="top-left">
                         <ul class="contact-list-two">
-                            <li><strong>Address</strong> 203 Madison Ave, NY, USA </li>
+                            <li><strong>Address</strong> Kinondoni B, Dar es salaam, Tanzania </li>
                             <li><strong>Timeing</strong> Monday - Friday 9am - 6pm </li>
                         </ul>
                     </div>
@@ -31,7 +31,7 @@
                 <!-- Main box -->
                 <div class="main-box">
                     <div class="logo-box">
-                        <div class="logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
+                        <div class="logo"><a href="/"><img src="images/zumarini_logo.png" alt="" title=""></a></div>
                     </div>
 
                     <div class="nav-outer">
@@ -78,8 +78,8 @@
 
                 <div class="main-box">
                     <div class="logo-box">
-                        <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
-                        <div class="upper-right">
+                        <div class="logo"><a href="/"><img src="images/zumarini_logo.png" alt="" title=""></a></div>
+                        <div class="upper-right">`
                             <div class="search-box">
                                 <button class="search-btn mobile-search-btn"><i class="flaticon-search-2"></i></button>
                             </div>
@@ -94,7 +94,7 @@
 
         <!-- Mobile Header -->
         <div class="mobile-header">
-            <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
+            <div class="logo"><a href="/"><img src="images/zumarini_logo.png" alt="" title=""></a></div>
 
             <!--Nav Box-->
             <div class="nav-outer clearfix">
@@ -116,14 +116,14 @@
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
                 <div class="upper-box">
-                    <div class="nav-logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="/"><img src="images/zumarini_logo.png" alt="" title=""></a></div>
                     <div class="close-btn"><i class="icon flaticon-close"></i></div>
                 </div>
 
                 <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
 
                 <ul class="contact-list-one">
-                    <li><i class="flaticon-location"></i> 203 Madison Ave, NY, USA <strong>Address</strong></li>
+                    <li><i class="flaticon-location"></i> Kinondoni B, Dar es salaam, Tanzania <strong>Address</strong></li>
                     <li><i class="flaticon-alarm-clock-1"></i>Monday - Friday 9am - 6pm <strong>Timeing</strong></li>
                     <li><i class="flaticon-email-1"></i> <a href="mailto:envato@gmail.com">envato@gmail.com</a> <strong>Mail to us</strong></li>
                 </ul>

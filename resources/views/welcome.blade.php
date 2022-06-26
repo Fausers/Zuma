@@ -1027,9 +1027,9 @@
 
                         <div class="sec-title">
 
-                            <span class="sub-title">WELCOME TO VOLIA</span>
+                            <span class="sub-title">WELCOME TO ZUMARINI </span>
 
-                            <h2>Volia Leading Tech Festival <br>In-person And Digital</h2>
+                            <h2>Zumarini Leading Tech Festival <br>In-person And Digital</h2>
 
                             <span class="divider"></span>
 
@@ -2290,7 +2290,7 @@
 
                 <span class="sub-title">News & blogs</span>
 
-                <h2>Latest From Newsroom</h2>
+                <h2>Up Coming Events</h2>
 
                 <span class="divider"></span>
 
@@ -2330,7 +2330,7 @@
 
                             <ul class="post-info">
 
-                                <li><span class="far fa-calendar"></span> 21/08/2021</li>
+                                <li><span class="far fa-calendar"></span> 21/08/2022</li>
 
                                 <li><span class="far fa-comments"></span> 02 Comments</li>
 
@@ -2374,7 +2374,7 @@
 
                             <ul class="post-info">
 
-                                <li><span class="far fa-calendar"></span> 21/08/2021</li>
+                                <li><span class="far fa-calendar"></span> 21/08/2022</li>
 
                                 <li><span class="far fa-comments"></span> 02 Comments</li>
 
@@ -2412,13 +2412,13 @@
 
                             </div>
 
-                            <h4><a href="blog-single.html">We Have Top Executive and Start Up Here Event 2021</a></h4>
+                            <h4><a href="blog-single.html">We Have Top Executive and Start Up Here Event 2022</a></h4>
 
                             <div class="text">Single stroke at the present moment and yet I feel that lorem quis bibendum auctor.</div>
 
                             <ul class="post-info">
 
-                                <li><span class="far fa-calendar"></span> 21/08/2021</li>
+                                <li><span class="far fa-calendar"></span> 21/08/2022</li>
 
                                 <li><span class="far fa-comments"></span> 02 Comments</li>
 

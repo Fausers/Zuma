@@ -36,7 +36,7 @@
                             <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget about-widget">
                                     <div class="logo">
-                                        <a href="index-2.html"><img src="images/logo-2.png" alt="" /></a>
+                                        <a href="index-2.html"><img src="images/zumarini_logo.png" alt="" /></a>
                                     </div>
                                     <div class="text">
                                         <p>We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors, mainly in Europe and other countries.</p>

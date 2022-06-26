@@ -30,7 +30,7 @@
 
                         <ul class="contact-list-one">
 
-                            <li><i class="flaticon-location"></i> 203 Madison Ave, NY, USA <strong>Address</strong></li>
+                            <li><i class="flaticon-location"></i> Kinondoni B, Dar es salaam, Tanzania <strong>Address</strong></li>
 
                             <li><i class="flaticon-alarm-clock-1"></i>Monday - Friday 9am - 6pm <strong>Timeing</strong></li>
 
@@ -66,7 +66,7 @@
 
                     <div class="logo-box">
 
-                        <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
+                        <div class="logo"><a href="/"><img src="images/zumarini_logo.png" alt="" title=""></a></div>
 
                     </div>
 
@@ -138,7 +138,7 @@
 
                     <div class="logo-box">
 
-                        <div class="logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
+                        <div class="logo"><a href="/"><img src="images/zumarini_logo.png" alt="" title=""></a></div>
 
                         <div class="upper-right">
 
@@ -174,7 +174,7 @@
 
         <div class="mobile-header">
 
-            <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
+            <div class="logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
 
 
 
@@ -218,7 +218,7 @@
 
                 <div class="upper-box">
 
-                    <div class="nav-logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
 
                     <div class="close-btn"><i class="icon flaticon-close"></i></div>
 
@@ -232,7 +232,7 @@
 
                 <ul class="contact-list-one">
 
-                    <li><i class="flaticon-location"></i> 203 Madison Ave, NY, USA <strong>Address</strong></li>
+                    <li><i class="flaticon-location"></i> Kinondoni B, Dar es salaam, Tanzania <strong>Address</strong></li>
 
                     <li><i class="flaticon-alarm-clock-1"></i>Monday - Friday 9am - 6pm <strong>Timeing</strong></li>
 
