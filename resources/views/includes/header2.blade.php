@@ -125,7 +125,7 @@
                 <ul class="contact-list-one">
                     <li><i class="flaticon-location"></i> Kinondoni B, Dar es salaam, Tanzania <strong>Address</strong></li>
                     <li><i class="flaticon-alarm-clock-1"></i>Monday - Friday 9am - 6pm <strong>Timeing</strong></li>
-                    <li><i class="flaticon-email-1"></i> <a href="mailto:envato@gmail.com">envato@gmail.com</a> <strong>Mail to us</strong></li>
+                    <li><i class="flaticon-email-1"></i> <a href="mailto:sales@zumarini.com">sales@zumarini.com</a> <strong>Mail to us</strong></li>
                 </ul>
 
                 <ul class="social-links">

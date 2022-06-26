@@ -6,7 +6,7 @@
     @include('includes.header2')
 
     <!--End Main Header -->
-
+    @include('includes.appointment')
 
     <!--Page Title-->
     <section class="page-title" style="background-image: url(images/background/11.jpg);">

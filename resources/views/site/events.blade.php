@@ -7,6 +7,8 @@
 
     <!--End Main Header -->
 
+    @include('includes.appointment')
+
      <!--Page Title-->
     <section class="page-title" style="background-image: url(images/background/11.jpg);">
         <div class="anim-icons full-width">

@@ -83,7 +83,7 @@
                                             <li>
                                                 <i class="icon flaticon-email-1"></i>
                                                 <div class="text">
-                                                    <a href="mailto:info@gmail.com">envato@gmail.com</a><br>
+                                                    <a href="mailto:info@gmail.com">sales@zumarini.com</a><br>
                                                     <strong>Mail to us</strong>
                                                 </div>
                                             </li>
@@ -91,7 +91,7 @@
                                             <li>
                                                 <i class="icon flaticon-location"></i>
                                                 <div class="text">
-                                                    203 Madison Ave, NY, USA
+                                                    Kinondoni B, Dar es salaam, Tanzania
                                                     <strong>Address</strong>
                                                 </div>
                                             </li>
@@ -129,7 +129,7 @@
         </div>
 
         <div class="footer-bottom">
-            <div class="copyright-text">Copyright © 2022 All Rights Reserved by <a href="#">ThemeCraze</a></div>
+            <div class="copyright-text">Copyright © 2022 All Rights Reserved</div>
         </div>
     </footer>
     <!--End Main Footer -->

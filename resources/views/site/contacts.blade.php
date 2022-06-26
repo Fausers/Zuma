@@ -7,6 +7,8 @@
 
     <!--End Main Header -->
 
+    @include('includes.appointment')
+
      <!--Page Title-->
     <section class="page-title" style="background-image: url(images/background/11.jpg);">
         <div class="anim-icons full-width">
@@ -95,19 +97,19 @@
                             <li>
                                 <span class="icon fa fa-map-marker-alt"></span>
                                 <h4>Our Location:</h4>
-                                <p>27 Division St, New York, NY 10002, United States.</p>
+                                <p>Kinondoni B, Dar es salaam, Tanzania.</p>
                             </li>
 
                             <li>
                                 <span class="icon fa fa-phone-volume"></span>
                                 <h4>24/7 Hotline:</h4>
-                                <p>+8 (123) 985 789,  +8 (123) 985 535</p>
+                                <p>+255 746 307 748</p>
                             </li>
 
                             <li>
                                 <span class="icon fa fa-envelope"></span>
                                 <h4>Email:</h4>
-                                <p><a href="mailto:newyork@example.com">volia.newyork@gmail.com</a></p>
+                                <p><a href="mailto:newyork@example.com">sales@zumarini.com</a></p>
                             </li>
                         </ul>
                     </div>
@@ -117,7 +119,7 @@
                 <div class="map-column col-lg-7 col-md-12 col-sm-12">
                      <!--Map Outer-->
                     <div class="map-outer">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6331292129!2d144.49266890254142!3d-37.97123689954809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2s!4v1574408946759!5m2!1sen!2s" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.930118897957!2d39.2646251624569!3d-6.786856907278409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4c719f6a6791%3A0x281f0d5095e3b246!2sAlpha!5e0!3m2!1sen!2stz!4v1656261254985!5m2!1sen!2stz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
