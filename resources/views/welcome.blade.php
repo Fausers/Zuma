@@ -373,7 +373,7 @@
 
                             <ul class="event-info">
 
-                                <li><i class="fa fa-map-marker"></i> California, USA</li>
+                                <li><i class="fa fa-map-marker"></i> Samora House, Dar es salaam</li>
 
                                 <li><i class="fa fa-calendar"></i> January 20 To 25, 2022</li>
 
@@ -417,7 +417,7 @@
 
                             <div class="btn-box">
 
-                                <a href="buy-ticket.html" class="theme-btn btn-style-one"><span class="btn-title">Book Ticket</span></a>
+
 
                                 <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="theme-btn btn-style-two lightbox-image"><span class="btn-title">Video Demo</span></a>
 
@@ -811,7 +811,7 @@
 
                             <ul class="event-info">
 
-                                <li><i class="fa fa-map-marker"></i> California, USA</li>
+                                <li><i class="fa fa-map-marker"></i> Samora House, Dar es salaam</li>
 
                                 <li><i class="fa fa-calendar"></i> January 20 To 25, 2022</li>
 
@@ -855,7 +855,7 @@
 
                             <div class="btn-box">
 
-                                <a href="buy-ticket.html" class="theme-btn btn-style-one"><span class="btn-title">Book Ticket</span></a>
+{{--                                <a href="buy-ticket.html" class="theme-btn btn-style-one"><span class="btn-title">Book Ticket</span></a>--}}
 
                                 <a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="theme-btn btn-style-two lightbox-image"><span class="btn-title">Video Demo</span></a>
 

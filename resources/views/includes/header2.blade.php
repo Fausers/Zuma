@@ -59,10 +59,7 @@
                             <!-- Search Btn -->
                             <div class="search-box-btn search-btn search-box-outer"><span class="icon fa fa-search"></span></div>
 
-                            <!-- Quote Btn -->
-                            <div class="btn-box">
-                                <a href="schedule.html" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-chair"></i> Book Ticket</span></a>
-                            </div>
+
 
                             <button class="nav-toggler"><i class="flaticon flaticon-menu-2"></i></button>
 

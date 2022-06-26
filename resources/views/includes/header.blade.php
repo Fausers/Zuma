@@ -106,11 +106,6 @@
 
                             <!-- Quote Btn -->
 
-                            <div class="btn-box">
-
-                                <a href="schedule.html" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-chair"></i> Book Ticket</span></a>
-
-                            </div>
 
 
 
