@@ -17,10 +17,10 @@
         </div>
         <div class="auto-container">
             <div class="title-outer">
-                <h1>Our Latest News</h1>
+                <h1>Our Latest Events</h1>
                 <ul class="page-breadcrumb">
-                    <li><a href="index-2.html">Home</a></li>
-                    <li>News</li>
+                    <li><a href="/">Home</a></li>
+                    <li>Events</li>
                 </ul>
             </div>
         </div>
@@ -35,7 +35,7 @@
                 <!--Content Side / Blog Sidebar-->
                 <div class="content-side col-lg-8 col-md-12 col-sm-12">
                     <div class="blog-sidebar">
-                        <!-- News Block Four -->
+                        <!-- Events Block Four -->
                         <div class="news-block style-four wow fadeInRight">
                             <div class="inner-box">
                                 <div class="image-box">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
 
-                        <!-- News Block Four -->
+                        <!-- Events Block Four -->
                         <div class="news-block style-four wow fadeInRight">
                             <div class="inner-box">
                                 <div class="image-box">
@@ -79,7 +79,7 @@
                             </div>
                         </div>
 
-                        <!-- News Block Four -->
+                        <!-- Events Block Four -->
                         <div class="news-block style-four wow fadeInRight">
                             <div class="inner-box">
                                 <div class="image-box">
@@ -101,7 +101,7 @@
                             </div>
                         </div>
 
-                        <!-- News Block Four -->
+                        <!-- Events Block Four -->
                         <div class="news-block style-four wow fadeInRight">
                             <div class="inner-box">
                                 <div class="image-box">

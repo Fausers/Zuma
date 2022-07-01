@@ -1029,7 +1029,7 @@
 
                         <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
 
-                        <a href="about.html" class="read-more">Read More</a>
+                        <a href="/about" class="read-more">Read More</a>
 
                     </div>
 
@@ -1049,7 +1049,7 @@
 
                         <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
 
-                        <a href="about.html" class="read-more">Read More</a>
+                        <a href="/about" class="read-more">Read More</a>
 
                     </div>
 
@@ -1069,7 +1069,7 @@
 
                         <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
 
-                        <a href="about.html" class="read-more">Read More</a>
+                        <a href="/about" class="read-more">Read More</a>
 
                     </div>
 
@@ -1089,7 +1089,7 @@
 
                         <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
 
-                        <a href="about.html" class="read-more">Read More</a>
+                        <a href="/about" class="read-more">Read More</a>
 
                     </div>
 

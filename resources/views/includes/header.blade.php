@@ -66,7 +66,7 @@
 
                     <div class="logo-box">
 
-                        <div class="logo"><a href="/"><img src="images/zumarini_logo.png" alt="" title=""></a></div>
+                        <div class="logo"><a href="/"><img style="height: 100px" src="images/zumarini_logo.png" alt="" title=""></a></div>
 
                     </div>
 

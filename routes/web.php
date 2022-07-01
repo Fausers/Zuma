@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\WebsiteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,12 +22,10 @@ Route::get('/about', function () {return view('site.about');})->name('about');
 Route::get('/events', function () {return view('site.events');})->name('events');
 Route::get('/contacts', function () {return view('site.contacts');})->name('contacts');
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
+Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    Route::get('/dash/front', [WebsiteController::class,'front'])->name('front');
 });
