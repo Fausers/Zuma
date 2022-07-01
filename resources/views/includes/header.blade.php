@@ -169,7 +169,7 @@
 
         <div class="mobile-header">
 
-            <div class="logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
+            <div class="logo"><a href="/"><img src="images/zumarini_logo.png" alt="" title=""></a></div>
 
 
 
@@ -213,7 +213,7 @@
 
                 <div class="upper-box">
 
-                    <div class="nav-logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="/"><img src="images/zumarini_logo.png" alt="" title=""></a></div>
 
                     <div class="close-btn"><i class="icon flaticon-close"></i></div>
 
