@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\WebsiteController;
+use App\Models\Expert;
+use App\Models\FrontContent;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,11 +17,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $website = FrontContent::first();
+    $experts = Expert::get();
+    return view('welcome',compact('website','experts'));
 });
 
+Route::get('/events', [WebsiteController::class, 'events'])->name('events');
+Route::get('/event/{id}', [WebsiteController::class, 'event'])->name('event');
 Route::get('/about', function () {return view('site.about');})->name('about');
-Route::get('/events', function () {return view('site.events');})->name('events');
 Route::get('/contacts', function () {return view('site.contacts');})->name('contacts');
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {

@@ -1,7 +1,6 @@
 <header class="main-header header-style-one">
 
 
-
         <!-- Header top -->
 
         <div class="header-top">
@@ -66,7 +65,7 @@
 
                     <div class="logo-box">
 
-                        <div class="logo"><a href="/"><img style="height: 100px" src="images/zumarini_logo.png" alt="" title=""></a></div>
+                        <div class="logo"><a href="/"><img style="height: 100px" src="/images/zumarini_logo.png" alt="" title=""></a></div>
 
                     </div>
 

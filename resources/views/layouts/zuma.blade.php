@@ -24,9 +24,9 @@
 
 
 
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="/images/zumarini_logo.png" type="image/x-icon">
 
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="/images/zumarini_logo.png" type="image/x-icon">
 
 <!--Color Switcher Mockup-->
 

@@ -959,19 +959,16 @@
 
                             <span class="sub-title">WELCOME TO ZUMARINI </span>
 
-                            <h2>Zumarini Leading Tech Festival <br>In-person And Digital</h2>
+                            <h2>{!! $website->title_1!!}</h2>
 
                             <span class="divider"></span>
 
                         </div>
 
-                        <p> With our in-person tech festival AND our online networking tools, you'll be able to attend in Amsterdam and from across the globe. </p>
-
-                        <p> Rub shoulders with international technology executives, top-tier investors, policymakers, startups, and scale-ups, during two days of business, knowledge sharing and a whole lot of fun. </p>
-
+                        {!! $website->desc_1 !!}
                         <div class="btn-box">
 
-                            <a href="buy-ticket.html" class="theme-btn btn-style-one"><span class="btn-title">Book Ticket</span></a>
+                            <a href="/events" class="theme-btn btn-style-one"><span class="btn-title">View Events</span></a>
 
                         </div>
 
@@ -1025,9 +1022,9 @@
 
                         <div class="icon-box"><i class="icon flaticon-certificate-1"></i></div>
 
-                        <h4>Confirm Speakers</h4>
+                        <h4>{{$website->feature_1}}</h4>
 
-                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
+                        <p>{{$website->feature_1_desc}}</p>
 
                         <a href="/about" class="read-more">Read More</a>
 
@@ -1045,9 +1042,9 @@
 
                         <div class="icon-box"><i class="icon flaticon-idea"></i></div>
 
-                        <h4>Best Digital Ideas</h4>
+                        <h4>{{$website->feature_2}}</h4>
 
-                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
+                        <p>{{$website->feature_2_desc}}</p>
 
                         <a href="/about" class="read-more">Read More</a>
 
@@ -1065,9 +1062,9 @@
 
                         <div class="icon-box"><i class="icon flaticon-meeting"></i></div>
 
-                        <h4>Networking People</h4>
+                        <h4>{{$website->feature_3}}</h4>
 
-                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
+                        <p>{{$website->feature_3_desc}}</p>
 
                         <a href="/about" class="read-more">Read More</a>
 
@@ -1085,9 +1082,9 @@
 
                         <div class="icon-box"><i class="icon flaticon-inspiration"></i></div>
 
-                        <h4>Inspiring Keynotes</h4>
+                        <h4>{{$website->feature_4}}</h4>
 
-                        <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
+                        <p>{{$website->feature_4_desc}}</p>
 
                         <a href="/about" class="read-more">Read More</a>
 
@@ -1244,26 +1241,27 @@
             <div class="row">
 
                 <!-- Speaker block -->
-
+                @foreach($experts as $expert)
                 <div class="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
 
                     <div class="inner-box">
 
                         <div class="image-box">
 
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/resource/speaker-1.jpg" alt=""></a></figure>
+                            <figure class="image"><a ><img src="{{$expert->image}}" alt=""></a></figure>
 
                             <span class="plus-icon fa fa-plus"></span>
 
                             <div class="social-links">
-
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                @if(isset($expert->linkedin))
+                                    <a href="{{$expert->linkedin}}"><i class="fab fa-linkedin"></i></a>
+                                @endif
+                                @if(isset($expert->twitter))
+                                    <a href="{{$expert->twitter}}"><i class="fab fa-twitter"></i></a>
+                                @endif
+                                @if(isset($expert->email))
+                                    <a href="{{$expert->email}}"><i class="fab fa-email"></i></a>
+                                @endif
 
                             </div>
 
@@ -1271,295 +1269,16 @@
 
                         <div class="info-box">
 
-                            <h4 class="name"><a href="speaker-detail.html">Patrick Spencer</a></h4>
+                            <h4 class="name"><a >{{$expert->name}}</a></h4>
 
-                            <span class="designation">S&P Analyzer</span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                 <!-- Speaker block -->
-
-                 <div class="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
-
-                    <div class="inner-box">
-
-                        <div class="image-box">
-
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/resource/speaker-2.jpg" alt=""></a></figure>
-
-                            <span class="plus-icon fa fa-plus"></span>
-
-                            <div class="social-links">
-
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-
-                            </div>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4 class="name"><a href="speaker-detail.html">Matthew White</a></h4>
-
-                            <span class="designation">Facebook's Co-Founder</span>
+                            <span class="designation">{{$expert->position}}</span>
 
                         </div>
 
                     </div>
 
                 </div>
-
-
-
-                <!-- Speaker block -->
-
-                <div class="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
-
-                    <div class="inner-box">
-
-                        <div class="image-box">
-
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/resource/speaker-3.jpg" alt=""></a></figure>
-
-                            <span class="plus-icon fa fa-plus"></span>
-
-                            <div class="social-links">
-
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-
-                            </div>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4 class="name"><a href="speaker-detail.html">Michael Dover</a></h4>
-
-                            <span class="designation">Starbuck's CEO</span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- Speaker block -->
-
-                <div class="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
-
-                    <div class="inner-box">
-
-                        <div class="image-box">
-
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/resource/speaker-4.jpg" alt=""></a></figure>
-
-                            <span class="plus-icon fa fa-plus"></span>
-
-                            <div class="social-links">
-
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-
-                            </div>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4 class="name"><a href="speaker-detail.html">Angelina Holy</a></h4>
-
-                            <span class="designation">Maxii's Manager</span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- Speaker block -->
-
-                <div class="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" >
-
-                    <div class="inner-box">
-
-                        <div class="image-box">
-
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/resource/speaker-5.jpg" alt=""></a></figure>
-
-                            <span class="plus-icon fa fa-plus"></span>
-
-                            <div class="social-links">
-
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-
-                            </div>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4 class="name"><a href="speaker-detail.html">Janet Jones</a></h4>
-
-                            <span class="designation">Newyork Post's GM</span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- Speaker block -->
-
-                <div class="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
-
-                    <div class="inner-box">
-
-                        <div class="image-box">
-
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/resource/speaker-6.jpg" alt=""></a></figure>
-
-                            <span class="plus-icon fa fa-plus"></span>
-
-                            <div class="social-links">
-
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-
-                            </div>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4 class="name"><a href="speaker-detail.html">Michael Dover</a></h4>
-
-                            <span class="designation"> Starbuck's CEO</span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- Speaker block -->
-
-                <div class="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
-
-                    <div class="inner-box">
-
-                        <div class="image-box">
-
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/resource/speaker-7.jpg" alt=""></a></figure>
-
-                            <span class="plus-icon fa fa-plus"></span>
-
-                            <div class="social-links">
-
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-
-                            </div>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4 class="name"><a href="speaker-detail.html">Jonathan Elves</a></h4>
-
-                            <span class="designation"> Maxii's Manager</span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- Speaker block -->
-
-                <div class="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
-
-                    <div class="inner-box">
-
-                        <div class=" image-box">
-
-                            <figure class="image image-2"><a href="speaker-detail.html"><img src="images/resource/speaker-2.jpg" alt=""></a></figure>
-
-                            <span class="plus-icon fa fa-plus"></span>
-
-                            <div class="social-links">
-
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-
-                            </div>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4 class="name"><a href="speaker-detail.html">Mike Michael</a></h4>
-
-                            <span class="designation">Softer Manager</span>
-
-                        </div>
-
-                    </div>
-
-                </div>
+                @endforeach
 
             </div>
 

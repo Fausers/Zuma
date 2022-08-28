@@ -38,9 +38,7 @@
                                     <div class="logo">
                                         <a href="index-2.html"><img src="images/zumarini_logo.png" alt="" /></a>
                                     </div>
-                                    <div class="text">
-                                        <p>We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors, mainly in Europe and other countries.</p>
-                                    </div>
+
                                 </div>
                             </div>
 
